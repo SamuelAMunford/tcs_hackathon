@@ -20,6 +20,7 @@ export const steps = [
         id: '3',
         message: " hi {previousValue}, how can I help you?",
         //trigger: '4'
+        end: true
     }
 ];
 
