@@ -16,6 +16,7 @@ const Form = () => {
   const handleSubmit = (e) => {
     // useeffect, everytime emp state changes -> call endpt to backend 
     e.preventDefault()
+    //console.log(emp)
     //setEmpID({...emp, check_in: x})
     api.visitorSignIn(emp)
     clear();
